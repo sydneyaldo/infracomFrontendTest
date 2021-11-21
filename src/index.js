@@ -121,7 +121,7 @@ function Table() {
               <label for="positive">Positive</label>
               <input type="radio" id="feedback" name="feedback" value="negative" checked={item.feedback === 'negative'}/>
               <label for="negative">Negative</label>
-              <input type="radio" id="feedback" name="feedback" value="" checked={item.feedback == ""}/>
+              <input type="radio" id="feedback" name="feedback" value="" checked={item.feedback === ''}/>
               <label for="negative">None</label>
             </td>
             <td className="tableData">

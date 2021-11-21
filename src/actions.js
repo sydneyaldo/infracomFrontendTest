@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { useDispatch } from 'react-redux'
 
 const transactionsReceived = data => ({
     type: 'TRANSACTIONS_RECEIVED',
