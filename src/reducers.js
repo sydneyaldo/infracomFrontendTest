@@ -1,4 +1,3 @@
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { combineReducers } from "redux";
 
 const transactionsReducer = (state = [], action) => {
